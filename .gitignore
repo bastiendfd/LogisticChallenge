@@ -1,0 +1,19 @@
+# Python virtual environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Never commit local configuration or secrets
+.env
+.env.*
+*.pem
+*.key
